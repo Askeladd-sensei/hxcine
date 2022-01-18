@@ -1,0 +1,11 @@
+body{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+}
+.typing{
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: white;
+
+}
