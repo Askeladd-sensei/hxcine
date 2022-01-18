@@ -2,7 +2,7 @@ h1,h3{
     color: white;
 }
 body{
-    background-image: url(bckg.png);
+    background-image: url(bckg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -14,4 +14,35 @@ body{
 }
 p{
     color: red;
+}
+.menu{
+    width: 100%;    
+    display: flex;
+    align-content: space-around ;
+    align-items: center ;
+    background-color: #000333;
+}
+.openup{
+    color: #ffffffff;
+}
+ul{
+    width: 20%;
+    background-color: #ffffffff;
+    display: inline-flex;
+    
+}
+li{
+    list-style: none;
+    text-align: center;
+}
+
+a{
+    padding: 10px 15px;
+    background-color: springgreen;
+    color: white;
+    display: inline-flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    text-align: center;
+    
 }
