@@ -1,5 +1,5 @@
-h1{
-    color: red;
+h1,h3{
+    color: white;
 }
 body{
     background-image: url(bckg.png);
@@ -10,8 +10,8 @@ body{
     width: 100%;
     height: auto;
     display: block;
-    background-color: white;
+    background-color: #ffffff4b;
 }
 p{
-    color: blue;
+    color: red;
 }
