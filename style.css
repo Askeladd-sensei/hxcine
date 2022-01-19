@@ -16,13 +16,20 @@ body{
 }
 h4{
     font-size: x-large;
+    border-radius: 3px;
+    padding: 3px 6px;
+    color: #FCFAFA;
 }
 .logo{
     float:left; width: 64px;height: 48px;
 }
+.pins{
+    height: 48px;
+    width: 48px;
+}
 
 .dard{
-    border-left: 6px solid #00ff00;
+    border-left: 6px solid #3B413C;
     align-self: center;
     display: flex;
     flex-wrap: wrap;
@@ -31,11 +38,13 @@ h4{
     margin: 0 5%;
     padding: 20px 10px;
     background-color: #fcfafae5;
-    padding-left: 10px;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 .d2{
 border-left: 6px solid #473BF0;
+}
+.d3{
+    border-left: 6px solid #E9724C;
 }
 .desc{
     display: block;
@@ -93,13 +102,20 @@ li a{
     display: flex;
     width: 30%;
     margin: 1% 1%;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    /*background-color: darkcyan;*/
 
+}
+
+.int{
+    display: flex;
+    width: 30%;
+    margin: 5px;
+    justify-content: safe;
 }
 .bar .progress-bars{
     display: flex;
+    flex-wrap: wrap;
     height: 30%;
     text-align: center;
     background-color: #473BF0;   
@@ -138,7 +154,6 @@ footer{
     align-items: center;
     display: flex;
 }
-
 
 
 
