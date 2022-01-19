@@ -1,6 +1,9 @@
 h1,h3{
     color: white;
 }
+p{
+    text-align: justify;
+}
 body{
     background-image: url(background.jpg);
     background-repeat: no-repeat;
@@ -19,18 +22,21 @@ h4{
 }
 
 .profile{
+    border-left: 6px solid #00ff00;
+    align-self: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     height: auto;
-    padding: 10px 10px;
+    margin: 0 5%;
+    padding: 20px 10px;
     background-color: #fcfafae5;
     padding-left: 10px;
     border-radius: 3px;
 }
 .desc{
     display: block;
-    width: 70%;
+    width: 75%;
 }
 .ah{
     display: flex;
@@ -106,6 +112,8 @@ header{
     float:left;
     width: 32px;height: 24px;
 }
+
+
 }
 
 
@@ -115,10 +123,8 @@ header{
 
 h1{
 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    width: 100%;
     text-transform: uppercase;
     letter-spacing: 5px;
     color: transparent;
@@ -128,9 +134,8 @@ h1::before{
     position: absolute;
     color: #fff;
     overflow: hidden;
-
     white-space: nowrap;
-    animation: animate 5s steps(32) 1;
+    animation: animate 6s steps(30) 1;
     
 }
 
@@ -144,7 +149,7 @@ h1::before{
         
     }
     100%{
-        width: 100%;
+        width: 39%;
     }
 
 }
